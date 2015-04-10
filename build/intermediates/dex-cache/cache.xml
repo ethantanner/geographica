@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Ethan\Documents\School\MapGame\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\Ethan\Documents\School\MapGame\app\build\intermediates\pre-dexed\debug\classes-27c9915a09e70a4e05c53630cccbdafed981761f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ethan\Documents\School\backup\MapGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Ethan\Documents\School\backup\MapGame\app\build\intermediates\pre-dexed\release\internal_impl-21.0.0-8dc29d0722720a2d9046c391108140873c5fdfd9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ethan\Documents\School\MapGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Ethan\Documents\School\MapGame\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-b364bdf07f221abd03cb289ab1743532fab620ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ethan\Documents\School\backup\MapGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Ethan\Documents\School\backup\MapGame\app\build\intermediates\pre-dexed\release\classes-6b11e147ef000888fed1175af591f655010921ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ethan\Documents\School\backup\MapGame\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\Ethan\Documents\School\backup\MapGame\app\build\intermediates\pre-dexed\release\classes-3a0d6e43c6188f02b6d790786194bc56a7f2ba4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ethan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\Ethan\Documents\School\MapGame\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-582745389e861e3442dbe31be80f948e2879ec2a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ethan\Documents\School\MapGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Ethan\Documents\School\MapGame\app\build\intermediates\pre-dexed\debug\classes-164d1a0fc2f1d59a0bfaeb0727d600a5895e7be3.jar" />
+    </item>
+
+</items>

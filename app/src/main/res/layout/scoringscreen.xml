@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/relativeLayout">
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/newLoc"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/nextround"
+            android:background="#ffffff" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/pin"
+            android:scaleType="fitCenter"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="false"
+            android:alpha=".7" />
+
+        <GridLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:id="@+id/gridLayout4"
+            android:rowCount="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Round Number"
+                android:id="@+id/roundNumView"
+                android:layout_gravity="center" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:id="@+id/optionsButton"
+                android:src="@drawable/options"
+                android:background="#ffffff"
+                android:layout_row="0"
+                android:layout_column="7"
+                android:layout_below="@+id/gridLayout2"
+                android:layout_alignRight="@+id/submitButton"
+                android:layout_alignEnd="@+id/submitButton"
+                android:scaleType="fitCenter"
+                android:onClick="popUpOptions" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/gridLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/scoreTextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_alignEnd="@+id/totalScore"
+                android:layout_row="0"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Total Score"
+                android:id="@+id/totalScore"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="43dp"
+                android:layout_below="@+id/scoreTextView"
+                android:layout_alignStart="@+id/newLoc"
+                android:layout_row="1"
+                android:layout_column="1" />
+        </GridLayout>
+
+    </RelativeLayout>
+</LinearLayout>

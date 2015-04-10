@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/optionsMainMenu"
+        android:title="@string/mainMenu" />
+    <item android:id="@+id/optionsResetLocations"
+        android:title="@string/resetLocations" />
+    <item android:id="@+id/optionsResetBestScore"
+        android:title="@string/resetBestScore" />
+
+</menu>
